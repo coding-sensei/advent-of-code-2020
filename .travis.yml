@@ -2,6 +2,7 @@ language: python
 matrix:
   # This will launch a separate build for each Python version you add
   include:
+    - python: 3.6
     - python: 3.7
 before_install:
   # Install Miniconda
@@ -17,7 +18,7 @@ install:
   - echo "$TRAVIS_PYTHON_VERSION"
   - conda env create -f environment.yml python=$TRAVIS_PYTHON_VERSION
   - conda activate advent-of-code-2020
-  - while read requirement; do conda install --yes $requirement; done < requirements.txt
+  - while read requirement; do conda install --yes $requirement || pip install $requirement; done < requirements.txt
   - conda list
 script:
   # Run pylint checker
