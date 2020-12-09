@@ -1,6 +1,7 @@
 # Advent of Code 2020
 
 [![Build Status](https://travis-ci.com/coding-sensei/advent-of-code-2020.svg?branch=main)](https://travis-ci.com/coding-sensei/advent-of-code-2020)
+[![codecov](https://codecov.io/gh/coding-sensei/advent-of-code-2020/branch/main/graph/badge.svg?token=FRKAQ6KEWB)](https://codecov.io/gh/coding-sensei/advent-of-code-2020)
 
 Here are my solutions for the [2020 Advent of Code puzzles](https://adventofcode.com/2020). The goal is to solve these problems using TDD in Python.
 
