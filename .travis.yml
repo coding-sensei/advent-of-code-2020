@@ -28,6 +28,6 @@ script:
   # Run Black formater check
   - black --check .
   # Run tests
-  - pytest
+  - pytest --cov-report term --cov=tests
 after_success:
   - codecov

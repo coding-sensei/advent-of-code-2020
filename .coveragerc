@@ -1,5 +1,2 @@
 [report]
-
-exclude_lines =
-    # Don't run main
-    if __name__ == .__main__.:
+show_missing = True
