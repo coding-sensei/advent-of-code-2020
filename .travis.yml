@@ -18,7 +18,7 @@ install:
   - echo "$TRAVIS_PYTHON_VERSION"
   - conda env create -f environment.yml python=$TRAVIS_PYTHON_VERSION
   - conda activate advent-of-code-2020
-  - conda install --file requirements.txt
+  - while read requirement; do conda install --yes $requirement; done < requirements.txt
   - conda list
 script:
   # Run pylint checker
