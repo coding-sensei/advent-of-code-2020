@@ -1,0 +1,16 @@
+# vim swap files
+*.swp
+
+# Virtual environment
+.venv
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
