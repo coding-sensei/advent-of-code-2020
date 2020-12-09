@@ -4,4 +4,3 @@ channels:
 dependencies:
   - codecov
   - pip
-    - -r file:requirements.txt
