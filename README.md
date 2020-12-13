@@ -56,7 +56,4 @@ pytest tests/integration/
 
 #All tests
 pytest
-
-#All tests with code cov check
-pytest --cov tests
 ```
