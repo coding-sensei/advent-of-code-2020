@@ -1,6 +1,6 @@
 [tool.pytest.ini_options]
 minversion = "6.0"
-addopts = "--cov aoc"
+addopts = "-rA --cov aoc"
 testpaths = [
     "tests/unit",
     "tests/integration",
