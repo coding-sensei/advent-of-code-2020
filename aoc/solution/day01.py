@@ -1,7 +1,9 @@
 def part1(expenses):
     """
     Function to solve Day 01 Part 1.
-    Big O/Time complexity
+
+    O(n^2) Time complexity: I think this could be reduced to O(n) with a dictionary
+    O(n) Space complexity
 
     Args:
         expenses (list): The list of expenses in Integers.
